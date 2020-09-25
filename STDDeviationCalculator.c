@@ -1,6 +1,6 @@
 // This simple program calculates the mean of a given population and
 // then calculates one standard deviation based on that populations mean
-// In a future version of this program I will add user input functionality to this program
+// In a future version of this program I will add user input functionality
 
 #include <stdio.h>
 #include <math.h>
