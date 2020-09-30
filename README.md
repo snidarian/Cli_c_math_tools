@@ -11,7 +11,7 @@ MATH PROGRAMS - The purpose of these programs is to slowly and incrementally cre
 STDDeviationCalculator.c - Calculates sample standard deviation from sample population
 
 
-2. Geometrical
+2. Geometry
 
 CircleMathCalc.c - Calculates Diameter, Circumference, and Area from user-supplied radius
 
