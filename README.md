@@ -1,21 +1,19 @@
-# Personal-C-Programs
+# C implemented cli math tools - **Quick, easily accessed, accurate, and extensible**
 
-This is a repo where I will store personal C programs that I've written. Below are a list of the current program types. 
-New program types are only to be added after at least one program in that type has been completed.
+### GOALS
+- **The production of an extensible set of CLI math utilities ranging from the most basic to the most advance mathmatical calculations**
+- These may or may not be eventually aggregated into one program (There are time advantages to keeping them all separate)
 
-Mixed into this repo will also be random C files, experimental C files, simple proof of concept files and C scratch files.
+Note: Unless you're not aware you need to compile these programs yourself with GCC before you use them
+for example $~ gcc average.c -o average
+
+MATH PROGRAMS - The purpose of these programs is to slowly and incrementally create the building blocks of a master calculator capable of doing all types of mathematics including but not limited to, real analysis, statistical analysis, trigonometry, calculus, geometry, linear algebra, ETC... These individual programs can be thought of as the constituent working parts of my personal project to build a sophisticated Calculator written in the C language. 
+
+- average.c - takes an indefinite amount of command line integer arguments and averages them printing to stdout
 
 
-MATH PROGRAMS - The purpose of these programs is to slowly and incrementally create the building blocks of a master calculator capable of doing all types of mathematics including but not limited to, real analysis, statistical analysis, trigonometry, calculus, geometry, linear algebra, ETC... These individual programs can be thought of as the constituent working parts of my personal project to build a sophisticated Calculator written in the C language.
-
-1. Statistics:
-
-STDDeviationCalculator.c - Calculates sample standard deviation from sample population
 
 
-2. Geometry
-
-CircleMathCalc.c - Calculates Diameter, Circumference, and Area from user-supplied radius
 
 
 
