@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
         
         // need to convert each string argument to integer or float and then add them to sum
         char *pointertoargv = argv[i];
-        sum += atoi(pointertoargv);
+        sum += atof(pointertoargv);
         
 
     }
