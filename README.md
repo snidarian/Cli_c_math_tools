@@ -2,7 +2,7 @@
 
 ### GOALS
 - **The production of an extensible set of CLI math utilities ranging from the most basic to the most advance mathmatical calculations**
-- These may or may not be eventually aggregated into one program (There are time advantages to keeping them all separate)
+- These may or may not be eventually aggregated into one program (There are access-time, ease-of-use advantages to keeping them all separate)
 
 Note: Unless you're not aware you need to compile these programs yourself with GCC before you use them
 for example $~ gcc average.c -o average
