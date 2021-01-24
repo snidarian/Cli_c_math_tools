@@ -6,8 +6,7 @@
 
 int main(int argc, char *argv[])
 {
-    printf("Start argc: %d\n", argc);
-    printf("Start argv: %s\n", argv[1]);
+
     int i;
     float sum = 0;
     int count = argc;
@@ -19,10 +18,6 @@ int main(int argc, char *argv[])
         char *pointertoargv = argv[i];
         sum += atoi(pointertoargv);
         
-        // printf("The number of arguments is %d\n", argc);
-        // printf("The current argv of i=%d is: %s\n", i, argv[i]);
-
-        // printf("sum = %f\n", sum);
 
     }
 
