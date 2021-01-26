@@ -11,7 +11,8 @@ Math programs - The purpose of these programs is to incrementally create the bui
 
 - average.c - takes an indefinite amount of command line integer arguments and averages them printing to stdout
 - stdev.c - calculates standard deviation and variance from float arguments (sample population), and prints them to stdout.
-
+- sqrt.c - displays square root of integer argument to stdout as float value (takes only one argument)
+- sqr.c - squares single provided integer argument (soon to be changed to float argument)
 
 
 
