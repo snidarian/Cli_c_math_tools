@@ -1,4 +1,4 @@
-// program that takes the average of an indefinite list of command line argument integers
+// program that takes the average of an indefinite list of command line argument integers/floats
 
 #include <stdio.h>
 #include <stdlib.h>
