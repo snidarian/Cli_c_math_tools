@@ -1,4 +1,4 @@
-// calculates standard deviation, variance and sample mean from sample
+// calculates standard deviation, variance and sample mean from sample pop
 // To use this to and acquire a sample variance, std deviation and sample mean:
 // simply supply float/integer command line arguments of the numbers that compose the sample
 
@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-    // premature shutdown of the program is there are not enough arguments to constitute a population
+    // shutdown of the program if there are not enough arguments to constitute a population
     if (argc == 1 || argc == 2)
     {
         printf("Arguement Error: Supply at least two float/integer arguments: \n");
@@ -37,8 +37,7 @@ int main(int argc, char *argv[])
     sum = 0;
     float calc_variance_container;
     
-    // find the variance in the sample
-
+    // Sample variance
     for(i=1; i < argc; ++i)
     {
         char *pointertoargv = argv[i];
