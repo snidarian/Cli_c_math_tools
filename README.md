@@ -10,7 +10,7 @@ for example $~ gcc average.c -o average
 Math programs - The purpose of these programs is to incrementally create the building blocks of a master calculator capable of doing all types of mathematics including but not limited to, real analysis, statistical analysis, trigonometry, calculus, geometry, linear algebra, ETC... These individual programs can be thought of as the constituent working parts of my personal project to build a sophisticated Calculator written in the C language. 
 
 - average.c - takes an indefinite amount of command line integer arguments and averages them printing to stdout
-- stdev.c - calculates standard deviation and variance from float arguments (sample population), and prints them to stdout.
+- samstd_dev.c - calculates sample standard deviation and sample variance from float arguments (sample population), and prints them to stdout.
 - sqrt.c - displays square root of integer/float argument to stdout as float value (takes only one argument)
 - sqr.c - squares single provided integer/float argument and displays it to stdout
 
