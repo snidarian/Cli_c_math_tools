@@ -1,3 +1,5 @@
+// Squares single input argument and displays it to stdout
+
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,16 +13,17 @@ int main(int argc, char *argv[])
         char *pointertoarg = argv[1];
         float value = atof(pointertoarg);
 
-        printf("%.4f\n", (pow(value, 2)));
+        printf("%.4f\n", (pow(value, 3)));
     }
-    else
+    if (argc == 1)
     {
-        printf("Error: only one arguement allowed: ");
+        printf("Error: one argument required\n");
+    }
+    if (argc > 2)
+    {
+        printf("Argument Error: one arguement allowed: ");
         printf("arg count is: %d\n", (argc -1));
     }
     
-
-
 return 0;
 }
-
