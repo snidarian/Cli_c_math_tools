@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
         
     }
     float average = (sum / (count - 1));
-    printf("Sample average is: %.5f\n", average);
+    printf("Sample mean is: %.5f\n", average);
 
 
     float mean = average;
