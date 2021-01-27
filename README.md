@@ -14,7 +14,7 @@ Math programs - The purpose of these programs is to incrementally create the bui
 - sqrt.c - displays square root of integer/float argument to stdout as float value (takes only one argument)
 - sqr.c - squares single provided integer/float argument and displays it to stdout
 - cube.c - cubes agv[1] and returns result to stdout
-
+- fact.c - !n - displays factorial of argv[1] to stdout
 
 
 
