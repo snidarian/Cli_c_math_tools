@@ -13,7 +13,7 @@ Math programs - The purpose of these programs is to incrementally create the bui
 - samstd_dev.c - calculates sample standard deviation and sample variance from float arguments (sample population), and prints them to stdout.
 - sqrt.c - displays square root of integer/float argument to stdout as float value (takes only one argument)
 - sqr.c - squares single provided integer/float argument and displays it to stdout
-
+- cube.c - cubes agv[1] and returns result to stdout
 
 
 
