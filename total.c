@@ -6,7 +6,6 @@
 
 int main(int argc, char *argv[])
 {
-    printf("argc: %d\n", argc);
     float sum = 0;
 
     if (argc == 1)
